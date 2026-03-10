@@ -1,0 +1,36 @@
+{
+  "current": {
+    "config": {
+      "name": "cancun",
+      "block": 19426545,
+      "blobSchedule": {
+        "maxBlobGasPerBlock": 786432,
+        "targetBlobGasPerBlock": 393216,
+        "blobGaspriceUpdateFraction": 3338477
+      },
+      "precompiles": [
+        "0x0000000000000000000000000000000000000001",
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000003"
+      ],
+      "systemContracts": []
+    }
+  },
+  "next": null,
+  "last": {
+    "config": {
+      "name": "shanghai",
+      "block": 17034870,
+      "precompiles": [
+        "0x0000000000000000000000000000000000000001",
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000003"
+      ],
+      "systemContracts": []
+    }
+  },
+  "forkId": {
+    "hash": "0xf0afd0c7",
+    "next": null
+  }
+}
