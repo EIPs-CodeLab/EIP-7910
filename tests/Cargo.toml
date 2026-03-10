@@ -1,0 +1,10 @@
+[package]
+name = "eth-config-tests"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+eth-config-api = { path = "../crates/eth-config-api" }
+serde = { workspace = true }
+serde_json = { workspace = true }
