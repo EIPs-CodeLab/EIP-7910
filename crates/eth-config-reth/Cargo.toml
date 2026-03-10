@@ -1,0 +1,20 @@
+[package]
+name = "eth-config-reth"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["EIP-7910 contributors"]
+
+[dependencies]
+eth-config-api = { path = "../eth-config-api" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+
+# Optional deps gated by the `reth` feature so the crate builds in isolation.
+jsonrpsee = { version = "0.24", features = ["macros", "server"], optional = true }
+reth = { git = "https://github.com/paradigmxyz/reth.git", optional = true }
+
+[features]
+default = []
+reth = ["jsonrpsee", "dep:reth"]
