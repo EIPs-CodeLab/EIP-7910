@@ -1,0 +1,43 @@
+{
+  "current": {
+    "config": {
+      "name": "prague",
+      "block": null,
+      "precompiles": [
+        "0x0000000000000000000000000000000000000001",
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000003"
+      ],
+      "systemContracts": [
+        {
+          "address": "0x0000000000000000000000000000000000000004",
+          "codeHash": "0xdeadbeef",
+          "size": 4096,
+          "version": "v1"
+        }
+      ]
+    }
+  },
+  "next": null,
+  "last": {
+    "config": {
+      "name": "cancun",
+      "block": 19426545,
+      "blobSchedule": {
+        "maxBlobGasPerBlock": 786432,
+        "targetBlobGasPerBlock": 393216,
+        "blobGaspriceUpdateFraction": 3338477
+      },
+      "precompiles": [
+        "0x0000000000000000000000000000000000000001",
+        "0x0000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000003"
+      ],
+      "systemContracts": []
+    }
+  },
+  "forkId": {
+    "hash": "0x1a2b3c4d",
+    "next": 99999999
+  }
+}
