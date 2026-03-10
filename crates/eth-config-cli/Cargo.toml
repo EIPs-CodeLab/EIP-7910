@@ -1,0 +1,12 @@
+[package]
+name = "eth-config-cli"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["EIP-7910 contributors"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+eth-config-api = { path = "../eth-config-api" }
