@@ -1,33 +1,29 @@
 {
   "current": {
-    "config": {
-      "name": "cancun",
-      "block": 19426545,
-      "blobSchedule": {
-        "maxBlobGasPerBlock": 786432,
-        "targetBlobGasPerBlock": 393216,
-        "blobGaspriceUpdateFraction": 3338477
-      },
-      "precompiles": [
-        "0x0000000000000000000000000000000000000001",
-        "0x0000000000000000000000000000000000000002",
-        "0x0000000000000000000000000000000000000003"
-      ],
-      "systemContracts": []
-    }
+    "name": "cancun",
+    "block": "0x128b7f1",
+    "blobSchedule": {
+      "maxBlobGasPerBlock": "0xc0000",
+      "targetBlobGasPerBlock": "0x60000",
+      "blobGaspriceUpdateFraction": "0x32f29d"
+    },
+    "precompiles": {
+      "ecrecover": "0x0000000000000000000000000000000000000001",
+      "sha256": "0x0000000000000000000000000000000000000002",
+      "ripemd": "0x0000000000000000000000000000000000000003"
+    },
+    "systemContracts": {}
   },
   "next": null,
   "last": {
-    "config": {
-      "name": "shanghai",
-      "block": 17034870,
-      "precompiles": [
-        "0x0000000000000000000000000000000000000001",
-        "0x0000000000000000000000000000000000000002",
-        "0x0000000000000000000000000000000000000003"
-      ],
-      "systemContracts": []
-    }
+    "name": "shanghai",
+    "block": "0x104c533",
+    "precompiles": {
+      "ecrecover": "0x0000000000000000000000000000000000000001",
+      "sha256": "0x0000000000000000000000000000000000000002",
+      "ripemd": "0x0000000000000000000000000000000000000003"
+    },
+    "systemContracts": {}
   },
   "forkId": {
     "hash": "0xf0afd0c7",

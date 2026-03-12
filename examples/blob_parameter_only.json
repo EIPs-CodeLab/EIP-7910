@@ -1,38 +1,34 @@
 {
   "current": {
-    "config": {
-      "name": "bpo",
-      "block": 25000000,
-      "blobSchedule": {
-        "maxBlobGasPerBlock": 800000,
-        "targetBlobGasPerBlock": 400000,
-        "blobGaspriceUpdateFraction": 3338477
-      },
-      "precompiles": [
-        "0x0000000000000000000000000000000000000001",
-        "0x0000000000000000000000000000000000000002",
-        "0x0000000000000000000000000000000000000003"
-      ],
-      "systemContracts": []
-    }
+    "name": "bpo",
+    "block": "0x17d7840",
+    "blobSchedule": {
+      "maxBlobGasPerBlock": "0xc3500",
+      "targetBlobGasPerBlock": "0x61a80",
+      "blobGaspriceUpdateFraction": "0x32f29d"
+    },
+    "precompiles": {
+      "ecrecover": "0x0000000000000000000000000000000000000001",
+      "sha256": "0x0000000000000000000000000000000000000002",
+      "ripemd": "0x0000000000000000000000000000000000000003"
+    },
+    "systemContracts": {}
   },
   "next": null,
   "last": {
-    "config": {
-      "name": "cancun",
-      "block": 19426545,
-      "blobSchedule": {
-        "maxBlobGasPerBlock": 786432,
-        "targetBlobGasPerBlock": 393216,
-        "blobGaspriceUpdateFraction": 3338477
-      },
-      "precompiles": [
-        "0x0000000000000000000000000000000000000001",
-        "0x0000000000000000000000000000000000000002",
-        "0x0000000000000000000000000000000000000003"
-      ],
-      "systemContracts": []
-    }
+    "name": "cancun",
+    "block": "0x128b7f1",
+    "blobSchedule": {
+      "maxBlobGasPerBlock": "0xc0000",
+      "targetBlobGasPerBlock": "0x60000",
+      "blobGaspriceUpdateFraction": "0x32f29d"
+    },
+    "precompiles": {
+      "ecrecover": "0x0000000000000000000000000000000000000001",
+      "sha256": "0x0000000000000000000000000000000000000002",
+      "ripemd": "0x0000000000000000000000000000000000000003"
+    },
+    "systemContracts": {}
   },
   "forkId": {
     "hash": "0x9abc0011",
