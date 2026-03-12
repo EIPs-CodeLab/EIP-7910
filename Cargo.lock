@@ -2944,6 +2944,7 @@ dependencies = [
 name = "eth-config-api"
 version = "0.1.0"
 dependencies = [
+ "crc32fast",
  "serde",
  "serde_json",
  "thiserror 1.0.69",

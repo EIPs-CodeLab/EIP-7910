@@ -23,10 +23,10 @@ Implementation skeleton for exposing the `eth_config` JSON-RPC method (EIP-7910)
 - `make cli` — build the validator CLI.
 
 ## Tests
-- `tests/hoodi_prague.rs`: golden comparison versus the EIP Prague sample output (fixture pending).
-- `tests/hoodi_cancun.rs`: golden comparison versus the EIP Cancun sample output (fixture pending).
-- `tests/no_future_fork.rs`: ensures `next`/`last` are null when no future or past fork exists.
-- `tests/bpo_fork.rs`: covers blob-parameter-only fork transitions.
+- `tests/hoodi_prague.rs`: parses Prague sample and checks presence of `next` fork id.
+- `tests/hoodi_cancun.rs`: parses Cancun sample with blob schedule and no next fork.
+- `tests/no_future_fork.rs`: ensures `next`/`last` null handling.
+- `tests/bpo_fork.rs`: blob-parameter-only fork sample.
 - Tests live in the `eth-config-tests` crate (workspace member) and currently validate the example fixtures deserialize correctly. Run them via `make test` or `cargo test -p eth-config-tests`.
 
 ## EIP-7910 recap
